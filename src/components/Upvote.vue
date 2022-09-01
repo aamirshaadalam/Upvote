@@ -16,7 +16,6 @@
 
   const count = computed(() => store.getters.getCount);
   const isSelected = computed(() => store.getters.getSelected);
-  console.log(isSelected);
 </script>
 
 <template>

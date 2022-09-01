@@ -14,7 +14,6 @@ export default {
   mutations: {
     toggleSelected(state) {
       state.selected = !state.selected;
-      console.log(state.selected);
     },
     incrementCount(state) {
       state.count++;
