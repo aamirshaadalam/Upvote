@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .upvote-container {
+        @apply shadow border m-10 rounded-lg flex flex-row items-center mx-80;
+    }
+
+    .upvotes {
+        @apply flex border rounded-lg my-4 ml-4 w-full flex-wrap;
+    }
+
+    .empty {
+        @apply p-9;
+    }
+
+    .icon-container {
+        @apply rounded-lg p-3 m-3 cursor-pointer bg-not-selected-upvote;
+    }
+
+    .icon {
+        @apply h-6 w-6 stroke-2 stroke-not-selected-arrow;
+    }
+
+    .add-upvote {
+        @apply flex my-4 mx-2;
+    }
+}
